@@ -63,5 +63,25 @@ ipfs tour
 ipfs tour --help
 ```
 
+And you can run your own static site on IPFS, like I do http://hackerdome.xyz
+
+This trick is using old-school DNS with TXT record in it, it's feature of ipfs gateway to keep touch with non-modern world. 
+IPFS will fetch TXT record with hash of ipfs object and fetch it from IPFS network and will server it to your browser
+
+```
+wao@astrid~> dig +short hackerdome.xyz
+104.236.76.40
+104.236.179.241
+128.199.219.111
+104.236.176.52
+162.243.248.213
+104.236.151.122
+178.62.61.185
+178.62.158.247
+wao@astrid~> dig +short -t TXT hackerdome.xyz
+"dnslink=/ipfs/QmRFfsLBwVbCcWiguFeB6QXbjABbvefxA1Uu7axRrfGbuX"
+```
+
+
 Now sit and watch video from Juan Benet at Standford about IPFS, learn what are distributed networks  
 https://www.youtube.com/watch?v=HUVmypx9HGI
