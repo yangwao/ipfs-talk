@@ -95,6 +95,7 @@ wao@astrid~> dig +short -t TXT hackerdome.xyz
 * [js video player](https://ipfs.io/ipfs/QmVc6zuAneKJzicnJpfrqCH9gSy6bz54JhcypfJYhGUFQu/play#/ipfs/QmTKZgRNwDNZwHtJSjCp6r5FYefzpULfy37JvMt9DwvXse)
 
 [More at how it works](https://github.com/ipfs/ipfs#how-ipfs-works)
+[More Awesome-ipfs](https://github.com/ipfs/awesome-ipfs)
 
 Now sit and watch video from Juan Benet at Standford about IPFS, learn what are distributed networks  
 https://www.youtube.com/watch?v=HUVmypx9HGI
