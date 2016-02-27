@@ -84,6 +84,12 @@ wao@astrid~> dig +short -t TXT hackerdome.xyz
 "dnslink=/ipfs/QmRFfsLBwVbCcWiguFeB6QXbjABbvefxA1Uu7axRrfGbuX"
 ```
 
+#### Examples
+**In some cases, daemon is required**
+
+* [QR code renderer](http://localhost:8080/ipfs/QmccqhJg5wm5kNjAP4k4HrYxoqaXUGNuotDUqfvYBx8jrR/qr#)
+
+[More at how it works](https://github.com/ipfs/ipfs#how-ipfs-works)
 
 Now sit and watch video from Juan Benet at Standford about IPFS, learn what are distributed networks  
 https://www.youtube.com/watch?v=HUVmypx9HGI
