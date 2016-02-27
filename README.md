@@ -7,6 +7,7 @@
 https://github.com/ipfs/go-ipfs/#build-from-source
 #### Download binary from this repo and choose your platform
 https://github.com/yangwao/ipfs-talk/tree/master/go-ipfs_d48cd56
+*when downloading binaries* `cp ipfs /usr/local/bin/ipfs`
 ```
 ipfs init
 ipfs daemon
