@@ -1,4 +1,6 @@
-# ipfs cat from mars
+# IPFS: Cat From Mars
+
+![](cat_from_mars.jpg)
 
 ### Before start
 #### Deploy IPFS locally
@@ -65,7 +67,7 @@ ipfs tour --help
 
 And you can run your own static site on IPFS, like I do http://hackerdome.xyz
 
-This trick is using old-school DNS with TXT record in it, it's feature of ipfs gateway to keep touch with non-modern world. 
+This trick is using old-school DNS with TXT record in it, it's feature of ipfs gateway to keep touch with non-modern world.
 IPFS will fetch TXT record with hash of ipfs object and fetch it from IPFS network and will server it to your browser
 
 ```
