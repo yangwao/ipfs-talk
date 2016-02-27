@@ -87,7 +87,9 @@ wao@astrid~> dig +short -t TXT hackerdome.xyz
 #### Examples
 **In some cases, daemon is required**
 
-* [QR code renderer](http://localhost:8080/ipfs/QmccqhJg5wm5kNjAP4k4HrYxoqaXUGNuotDUqfvYBx8jrR/qr#)
+* [example viewer](https://ipfs.io/ipfs/QmTkzDwWqPbnAh5YiV5VwcTLnGdwSNsNTn2aDxdXBFca7D/example#/ipfs/QmcGgxxoY53icGgxAkhHhdQPXFGq6ZjfvUESSvVg3C2CPT/readme.md)
+* [QR code renderer](https://ipfs.io/ipfs/QmccqhJg5wm5kNjAP4k4HrYxoqaXUGNuotDUqfvYBx8jrR/qr#)
+* [js video player](https://ipfs.io/ipfs/QmVc6zuAneKJzicnJpfrqCH9gSy6bz54JhcypfJYhGUFQu/play#/ipfs/QmTKZgRNwDNZwHtJSjCp6r5FYefzpULfy37JvMt9DwvXse)
 
 [More at how it works](https://github.com/ipfs/ipfs#how-ipfs-works)
 
