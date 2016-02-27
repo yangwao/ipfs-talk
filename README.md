@@ -3,8 +3,10 @@
 ![](cat_from_mars.jpg)
 
 ### Before start
-#### Deploy IPFS locally
+#### Deploy IPFS locally from source
 https://github.com/ipfs/go-ipfs/#build-from-source
+#### Download binary from this repo and choose your platform
+https://github.com/yangwao/ipfs-talk/tree/master/go-ipfs_d48cd56
 ```
 ipfs init
 ipfs daemon
