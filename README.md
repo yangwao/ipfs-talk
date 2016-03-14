@@ -3,8 +3,11 @@
 ![](cat_from_mars.jpg)
 
 ### Before start
-#### Deploy IPFS locally
+#### Deploy IPFS locally from source
 https://github.com/ipfs/go-ipfs/#build-from-source
+#### Download binary from this repo and choose your platform
+https://github.com/yangwao/ipfs-talk/tree/master/go-ipfs_d48cd56
+*when downloading binaries* `cp ipfs /usr/local/bin/ipfs`
 ```
 ipfs init
 ipfs daemon
@@ -87,9 +90,13 @@ wao@astrid~> dig +short -t TXT hackerdome.xyz
 #### Examples
 **In some cases, daemon is required**
 
-* [QR code renderer](http://localhost:8080/ipfs/QmccqhJg5wm5kNjAP4k4HrYxoqaXUGNuotDUqfvYBx8jrR/qr#)
+* [example viewer](https://ipfs.io/ipfs/QmTkzDwWqPbnAh5YiV5VwcTLnGdwSNsNTn2aDxdXBFca7D/example#/ipfs/QmcGgxxoY53icGgxAkhHhdQPXFGq6ZjfvUESSvVg3C2CPT/readme.md)
+* [QR code renderer](https://ipfs.io/ipfs/QmccqhJg5wm5kNjAP4k4HrYxoqaXUGNuotDUqfvYBx8jrR/qr#)
+* [js video player](https://ipfs.io/ipfs/QmVc6zuAneKJzicnJpfrqCH9gSy6bz54JhcypfJYhGUFQu/play#/ipfs/QmTKZgRNwDNZwHtJSjCp6r5FYefzpULfy37JvMt9DwvXse)
 
 [More at how it works](https://github.com/ipfs/ipfs#how-ipfs-works)
+
+[More Awesome-ipfs](https://github.com/ipfs/awesome-ipfs)
 
 Now sit and watch video from Juan Benet at Standford about IPFS, learn what are distributed networks  
 https://www.youtube.com/watch?v=HUVmypx9HGI
